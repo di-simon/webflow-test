@@ -1,0 +1,14 @@
+name: 'Deploy on push'
+
+on: workflow_dispatch
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Stage
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: 'https://ploi.io/webhooks/servers/43584/sites/129825/deploy?token=09c3Uy1lm1ZPNQSfvlxStpKv9j07GctAsv36CvreoAd5MjiZt9'
+        method: 'POST'
+        
