@@ -1,8 +1,6 @@
 name: 'Deploy on push'
 
 on: workflow_dispatch  
-  branches:
-      - master
 
 jobs:
   ploi-deploy:
