@@ -3,12 +3,18 @@ name: 'Deploy on push'
 on: workflow_dispatch
 
 jobs:
-  deployment:
+  ploi-deploy:
+    name: 'Ploi Deploy'
     runs-on: ubuntu-latest
+
     steps:
-    - name: Deploy Stage
-      uses: fjogeleit/http-request-action@v1
-      with:
-        url: 'https://ploi.io/webhooks/servers/43584/sites/129825/deploy?token=09c3Uy1lm1ZPNQSfvlxStpKv9j07GctAsv36CvreoAd5MjiZt9'
-        method: 'POST'
+      # Checkout the repository to the GitHub Actions runner
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Trigger Ploi deploy webhook
+      - name: Deploy
+        uses: Glennmen/ploi-deploy-action@v1.2.0
+        with:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
         
