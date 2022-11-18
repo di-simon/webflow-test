@@ -1,0 +1,1119 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Fri Nov 18 2022 08:46:19 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="637602613a6d62d10e5827fd" data-wf-site="637602613a6d6244295827f9">
+<head>
+  <meta charset="utf-8">
+  <title>Roberto&#x27;s Ultra-Awesome Site</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/robertos-ultra-awesome-site-bd6f87.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Merriweather:300,300italic,400,400italic,700,700italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style> .wf-loading * { opacity: 0; }
+</style>
+  <style>
+/* basic properties for the slider */
+.swiper-wrapper{
+	transform-style: preserve-3d;
+	transition-property: transform;
+	box-sizing: content-box;
+}
+/* Fade text down if slide is not active */
+#wheel-slider .swiper-slide .slide-heading, 
+#wheel-slider .swiper-slide .slide-category {
+	transform: translateY(140%);
+	-webkit-transform: translateY(140%);
+	-moz-transform: translateY(140%);
+	-ms-transform: translateY(140%);
+	-o-transform: translateY(140%);
+  opacity: 0;
+}
+/* Fade category text up and down with a delay */
+#wheel-slider .swiper-slide .slide-category {
+	transition-delay: 0.3s;
+}
+/* Fade heading text up and down with a delay */
+#wheel-slider .swiper-slide .slide-heading {
+	transition-delay: 0.8s;
+}
+/* Transform the active slide */
+#wheel-slider .swiper-slide.swiper-slide-active {
+	transform: rotate(0deg) translateY(0px) !important;
+	-webkit-transform: rotate(0deg) translateY(0px) !important;
+	-moz-transform: rotate(0deg) translateY(0px) !important;
+	-ms-transform: rotate(0deg) translateY(0px) !important;
+	-o-transform: rotate(0deg) translateY(0px) !important;
+}
+/* Fade text up if slide is active */
+#wheel-slider .swiper-slide.swiper-slide-active .slide-heading, 
+#wheel-slider .swiper-slide.swiper-slide-active .slide-category {
+	transform: translateY(0%);
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	-o-transform: translateY(0%);
+  opacity: 1.0;
+}
+/* Transform the first slides before */
+#wheel-slider .swiper-slide.swiper-slide-prev { 
+	transform: rotate(-10deg) translateY(100px) !important; 
+  -webkit-transform: rotate(-10deg) translateY(100px) !important; 
+  -moz-transform: rotate(-10deg) translateY(100px) !important; 
+  -ms-transform: rotate(-10deg) translateY(100px) !important; 
+  -o-transform: rotate(-10deg) translateY(100px) !important;
+}
+/* Transform the first slide after */
+#wheel-slider .swiper-slide.swiper-slide-next { 
+	transform: rotate(10deg) translateY(100px) !important; 
+  -webkit-transform: rotate(10deg) translateY(100px) !important; 
+  -moz-transform: rotate(10deg) translateY(100px) !important; 
+  -ms-transform: rotate(10deg) translateY(100px) !important; 
+  -o-transform: rotate(10deg) translateY(100px) !important;
+}
+/* Transform all slides after */
+#wheel-slider .swiper-slide.swiper-slide-next + .swiper-slide{
+	transform: rotate(20deg) translateY(400px) !important;
+	-webkit-transform: rotate(20deg) translateY(400px) !important;
+	-moz-transform: rotate(20deg) translateY(400px) !important;
+	-ms-transform: rotate(20deg) translateY(400px) !important;
+	-o-transform: rotate(20deg) translateY(400px) !important;
+}
+/* Transform all slides before */
+#wheel-slider .swiper-slide{
+	transform: rotate(-20deg) translateY(400px) !important;
+	-webkit-transform: rotate(-20deg) translateY(400px) !important;
+	-moz-transform: rotate(-20deg) translateY(400px) !important;
+	-ms-transform: rotate(-20deg) translateY(400px) !important;
+	-o-transform: rotate(-20deg) translateY(400px) !important;
+}
+span.percentage span{
+}
+.section-wave.overflow.bg-light-coral {
+    margin-top: -10px!Important;
+}
+.div-block-4 {
+    margin-top: -14px!important;
+}
+</style>
+</head>
+<body class="body">
+  <div data-w-id="0eb30bef-9d12-4081-da9c-68c20d072725" style="-webkit-transform:translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="preloader"><img src="images/Uasfdentitled-29.png" data-w-id="0eb30bef-9d12-4081-da9c-68c20d072726" srcset="images/Uasfdentitled-29-p-500.png 500w, images/Uasfdentitled-29-p-800.png 800w, images/Uasfdentitled-29-p-1080.png 1080w, images/Uasfdentitled-29.png 1322w" sizes="(max-width: 479px) 100vw, 200px" alt="" class="preloader-icon"></div>
+  <div class="header wf-section">
+    <div data-animation="default" class="navigation__wrapper w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" role="banner" data-no-scroll="1" data-duration="0" data-doc-height="1">
+      <div style="background-color:rgb(255,255,255)" class="nav__wrappper desktop">
+        <div class="nav__container">
+          <div class="nav__div__right">
+            <nav role="navigation" class="nav__menu__wrapper is--two w-nav-menu">
+              <div data-hover="1" data-delay="0" data-w-id="4b071a00-7ba0-160a-6b7f-ce360b0140f9" class="nav__dropdown w-dropdown">
+                <div class="nav__toggle nav__shop__link w-dropdown-toggle">
+                  <div class="text-block-13">Shop</div>
+                </div>
+                <nav style="opacity:0;-webkit-transform:translate3d(0, 25PX, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 25PX, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 25PX, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 25PX, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="nav__dropdown__list w-dropdown-list">
+                  <div style="border-color:rgb(40,169,92)" class="nav__dropdown__list__wrap">
+                    <div class="nav__product__content__wrapper">
+                      <div class="nav__products__container">
+                        <div class="nav__product__content__wrapper"><img src="images/sf.png" loading="lazy" srcset="images/sf-p-500.png 500w, images/sf.png 600w" sizes="100vw" alt="" class="nav__products">
+                          <h1 class="nav__product__title">Special Margherita</h1>
+                        </div>
+                        <div class="nav__product__content__wrapper"><img src="images/fd.png" loading="lazy" srcset="images/fd-p-500.png 500w, images/fd.png 600w" sizes="100vw" alt="" class="nav__products">
+                          <h1 class="nav__product__title">Four Cheezy</h1>
+                        </div>
+                        <div class="nav__product__content__wrapper"><img src="images/esdf.png" loading="lazy" srcset="images/esdf-p-500.png 500w, images/esdf.png 600w" sizes="100vw" alt="" class="nav__products">
+                          <h1 class="nav__product__title">White Truffle</h1>
+                        </div>
+                        <div class="nav__product__content__wrapper"><img src="images/sfgd.png" loading="lazy" srcset="images/sfgd-p-500.png 500w, images/sfgd.png 600w" sizes="100vw" alt="" class="nav__products">
+                          <h1 class="nav__product__title">Everything Crazy</h1>
+                        </div>
+                        <div class="nav__product__content__wrapper"><img src="images/fds.png" loading="lazy" srcset="images/fds-p-500.png 500w, images/fds.png 600w" sizes="100vw" alt="" class="nav__products">
+                          <h1 class="nav__product__title">Thin Cheezy</h1>
+                        </div>
+                        <div class="nav__product__content__wrapper"><img src="images/esdrg.png" loading="lazy" srcset="images/esdrg-p-500.png 500w, images/esdrg.png 600w" sizes="100vw" alt="" class="nav__products">
+                          <h1 class="nav__product__title">Vegetable Supreme</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="nav__dropdown__list__wrap__container _3"></div>
+                    <div class="div-block-136">
+                      <a href="#" class="button-4 w-button">VIEW ALL Pizzas</a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <a href="#" class="nav__link w-inline-block">
+                <div class="text-block-11">Subscribe</div>
+              </a>
+            </nav>
+            <div class="nav__menu__button w-nav-button">
+              <div class="nav__icon w-icon-nav-menu"></div>
+            </div>
+          </div>
+          <div class="nav__div__left">
+            <a href="#" class="nav__logo__wrap w-nav-brand"><img src="images/Uasfdentitled-29.png" loading="lazy" width="230" srcset="images/Uasfdentitled-29-p-500.png 500w, images/Uasfdentitled-29-p-800.png 800w, images/Uasfdentitled-29-p-1080.png 1080w, images/Uasfdentitled-29.png 1322w" sizes="(max-width: 991px) 100vw, 150px" alt="" class="nav__logo"></a>
+          </div>
+          <div class="nav__div__right">
+            <nav role="navigation" class="nav__menu__wrapper is--one w-nav-menu">
+              <a href="#" class="nav__link w-inline-block"><img src="images/Untitled-design---2022-04-22T133333.160_1Untitled-design---2022-04-22T133333.160.png" loading="lazy" alt="" class="account__icon"></a>
+              <a href="#" class="nav__link w-inline-block"><img src="images/Untitled-design---2022-04-22T133437.468_1Untitled-design---2022-04-22T133437.468.png" loading="lazy" alt="" class="cart__icon"></a>
+            </nav>
+            <div class="nav__menu__button w-nav-button">
+              <div class="nav__icon w-icon-nav-menu"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="background-color:rgb(255,255,255)" class="nav__wrappper mobile-tablet">
+        <div class="nav__container">
+          <div class="nav__div__lefty">
+            <nav role="navigation" class="nav__menu__wrapper w-nav-menu">
+              <div class="accordion__item__wrapper tabs__accordion">
+                <div class="menu__inner__content">
+                  <div class="nav__item is--nav--item">
+                    <div class="mobile__nav__product__wrapper">
+                      <div class="mobile__nav__product__image__wrapper-2 is--two"><img src="images/sf.png" loading="lazy" srcset="images/sf-p-500.png 500w, images/sf.png 600w" sizes="100vw" alt="" class="image-32"></div>
+                      <div class="mobile__nav__product__image__wrapper">
+                        <div class="mobile__nav__product__name">special margherita</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item">
+                    <div class="mobile__nav__product__wrapper">
+                      <div class="mobile__nav__product__image__wrapper-2 is--two"><img src="images/fd.png" loading="lazy" srcset="images/fd-p-500.png 500w, images/fd.png 600w" sizes="100vw" alt="" class="image-32"></div>
+                      <div class="mobile__nav__product__image__wrapper">
+                        <div class="mobile__nav__product__name">four cheezy</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item">
+                    <div class="mobile__nav__product__wrapper">
+                      <div class="mobile__nav__product__image__wrapper-2 is--two"><img src="images/esdf.png" loading="lazy" srcset="images/esdf-p-500.png 500w, images/esdf.png 600w" sizes="100vw" alt="" class="image-32"></div>
+                      <div class="mobile__nav__product__image__wrapper">
+                        <div class="mobile__nav__product__name">white truffle</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item">
+                    <div class="mobile__nav__product__wrapper">
+                      <div class="mobile__nav__product__image__wrapper-2 is--two"><img src="images/sfgd.png" loading="lazy" srcset="images/sfgd-p-500.png 500w, images/sfgd.png 600w" sizes="100vw" alt="" class="image-32"></div>
+                      <div class="mobile__nav__product__image__wrapper">
+                        <div class="mobile__nav__product__name">everything crazy</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item is--no--line is--about">
+                    <div class="nav__link__mobile">
+                      <div class="mobile__nav__product__description lighter-font">About Us</div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item no-line">
+                    <div class="nav__link__mobile">
+                      <div class="mobile__nav__product__description lighter-font">Subscribe</div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item no-line">
+                    <div class="nav__link__mobile">
+                      <div class="mobile__nav__product__description lighter-font">Ingredients</div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item no-line">
+                    <div class="nav__link__mobile">
+                      <div class="mobile__nav__product__description lighter-font">FAQs</div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item no-line">
+                    <div class="nav__link__mobile">
+                      <div class="mobile__nav__product__description lighter-font">Blog</div>
+                    </div>
+                  </div>
+                  <div class="nav__item is--nav--item no-line">
+                    <div class="nav__link__mobile">
+                      <div class="mobile__nav__product__description lighter-font">Create Acount</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div class="nav__menu__button w-nav-button">
+              <div data-w-id="4b071a00-7ba0-160a-6b7f-ce360b01416d" class="icon-2 w-icon-nav-menu"></div>
+            </div>
+          </div>
+          <div class="nav__div__left">
+            <a href="#" class="nav__logo__wrap w-nav-brand"><img src="images/Uasfdentitled-29.png" loading="lazy" width="230" srcset="images/Uasfdentitled-29-p-500.png 500w, images/Uasfdentitled-29-p-800.png 800w, images/Uasfdentitled-29-p-1080.png 1080w, images/Uasfdentitled-29.png 1322w" sizes="(max-width: 479px) 33vw, (max-width: 991px) 150px, 100vw" alt="" class="nav__logo"></a>
+          </div>
+          <div class="nav__div__right">
+            <div class="div-block-138"><img src="images/Untitled-design---2022-04-22T133437.468_1Untitled-design---2022-04-22T133437.468.png" loading="lazy" width="10" alt="" class="image-31"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="hero">
+      <div class="hero__wrapper">
+        <div class="icon__wrapper">
+          <div class="image__wrapper is--one"><img src="images/Untitled-design-19.png" loading="lazy" alt="" class="icon"></div>
+          <div class="image__wrapper is--six"><img src="images/Untitled-design-35.png" loading="lazy" alt="" class="icon"></div>
+          <div class="image__wrapper is--two"><img src="images/6.png" loading="lazy" alt="" class="icon"></div>
+          <div class="image__wrapper is--three"><img src="images/4.png" loading="lazy" alt="" class="icon"></div>
+          <div class="image__wrapper is--five"><img src="images/5.png" loading="lazy" alt="" class="icon"></div>
+          <div class="image__wrapper is--four"><img src="images/1.png" loading="lazy" alt="" class="icon"></div>
+        </div>
+        <div class="hero__container">
+          <div class="hero__content">
+            <div class="content__right is--hero">
+              <h1 class="heading__one is--hero--heading">authentic roman pizza</h1>
+              <h2 class="heading__two is--hero--heading">cook less, live more</h2>
+              <a href="#" class="button-2 w-button">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="wave is--desktop">
+          <div class="html-embed w-embed">
+            <div class="wave"></div>
+            <div class="wave__2"></div>
+            <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+      bottom: -2px!important;
+  width: 100%!important;
+  height: 60px;
+  animation: wave 900s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+          </div>
+        </div>
+        <div class="wavemobile is--mobile"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="testimonials">
+      <div class="testimonials__wrapper">
+        <div class="testimonial__container">
+          <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="testimonial__tabs is--reverse w-tabs">
+            <div class="tab__menu is--v3 w-tab-menu">
+              <a data-w-tab="Tab 1" class="tab__link w-inline-block w-tab-link w--current"><img loading="lazy" src="images/Untitled-design-32.png" alt="" class="logo"></a>
+              <a data-w-tab="Tab 2" class="tab__link w-inline-block w-tab-link"><img loading="lazy" src="images/3_1.png" alt="" class="logo"></a>
+              <a data-w-tab="Tab 3" class="tab__link w-inline-block w-tab-link"><img loading="lazy" src="images/2_1.png" alt="" class="logo"></a>
+            </div>
+            <div class="tabs__content is--v3 w-tab-content">
+              <div data-w-tab="Tab 1" class="tab__pane w-tab-pane w--tab-active">
+                <div class="card__tabs is--tab--v1">
+                  <h1 class="heading__one is--testimonials">&quot;When it comes to pizza, Goodroot does it right. The ingredients are top notch and the quality is to die for.&quot;</h1>
+                </div>
+              </div>
+              <div data-w-tab="Tab 2" class="tab__pane w-tab-pane">
+                <div class="card__tabs is--tab--v1">
+                  <h1 class="heading__one is--testimonials">Protein-packed, nutrient-dense, gluten-free pizza, you cant go wrong with Goodroot.</h1>
+                </div>
+              </div>
+              <div data-w-tab="Tab 3" class="tab__pane w-tab-pane">
+                <div class="card__tabs is--tab--v1">
+                  <h1 class="heading__one is--testimonials">You’ll probably want to sink your teeth into a slice of Goodroot pizza every night of the week.</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--desktop">
+      <div class="wavemobile is--mobile is--reverse"></div>
+      <div class="wave is--reverse">
+        <div class="w-embed">
+          <div class="wave"></div>
+          <div class="wave__2"></div>
+          <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%!important;
+  height: 60px;
+  animation: wave 900s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="new__product">
+      <div class="new__wrapper">
+        <div class="new__container">
+          <div class="content">
+            <div class="content__left">
+              <div class="product__content__details__wrapper">
+                <h1 class="heading__two is--product--details">Introducing</h1><img src="images/NEW-1.png" loading="lazy" data-w-id="079d3212-f0f3-22ba-47e9-98ecf015b954" alt="" class="new__icon">
+                <h1 class="heading__one is--product--new">special margherita</h1>
+                <p class="paragraph is--new">Our Special Margherita starts with a crispy, deliciously doughy, thick crust. It&#x27;s blanketed with a basil and just the right amount of tomato sauce.</p>
+                <div class="button__wrapper">
+                  <a href="#" class="button__shop__now w-button">SHOP NOW</a>
+                </div><img src="images/Untitled-design-33.png" loading="lazy" alt="" class="image-33">
+              </div>
+            </div>
+            <div class="content__middle">
+              <div class="new__image__wrapper"><img src="images/ezgif.com-gif-maker-1.gif" loading="lazy" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--two is--desktop is--vs">
+      <div class="wave">
+        <div class="w-embed">
+          <div class="wave"></div>
+          <div class="wave__2"></div>
+          <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%!important;
+  height: 60px;
+  animation: wave 900s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--two is--mobile is--vs">
+      <div class="wavemobile is--two"></div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div data-w-id="5e3c0227-c5bd-c1df-519d-7009f19d1e66" class="why">
+      <div class="pizza__cutter__image__wrapper"><img src="images/Untitled-design-30.png" loading="lazy" srcset="images/Untitled-design-30-p-500.png 500w, images/Untitled-design-30-p-800.png 800w, images/Untitled-design-30-p-1080.png 1080w, images/Untitled-design-30.png 1200w" sizes="100vw" alt="" class="pizza__cutter__image"></div>
+      <div class="why__wrapper">
+        <div class="pizza__hold__image__wrapper"><img src="images/Untitlxzdvcfed-28.png" loading="lazy" width="250" srcset="images/Untitlxzdvcfed-28-p-500.png 500w, images/Untitlxzdvcfed-28-p-800.png 800w, images/Untitlxzdvcfed-28-p-1080.png 1080w, images/Untitlxzdvcfed-28.png 1102w" sizes="(max-width: 1439px) 250px, (max-width: 1919px) 400px, 500px" alt="" class="pizza__image"></div>
+        <div class="why__container">
+          <div class="title__wrapper">
+            <h3 class="h3-heading">goodroot vs everyone else</h3>
+          </div>
+          <div class="w-layout-grid why__grid">
+            <div id="w-node-_21797165-8254-ea2a-9dae-710fefa5933c-0e5827fd" class="card__features">
+              <div class="feature__icon">
+                <h1 class="why__heading is--one">50%</h1>
+                <h1 class="why__heading">more protein</h1>
+              </div>
+            </div>
+            <div class="card__features">
+              <div class="feature__icon">
+                <h1 class="why__heading is--one">5x</h1>
+                <h1 class="why__heading">biotin</h1>
+              </div>
+            </div>
+            <div id="w-node-_21797165-8254-ea2a-9dae-710fefa5934a-0e5827fd" class="card__features is--last">
+              <div class="feature__icon">
+                <h1 class="why__heading is--one">35%</h1>
+                <h1 class="why__heading">fewer carbs</h1>
+              </div>
+            </div>
+            <a id="w-node-_09df1ff3-f7fd-ba56-a862-e71228bbda2e-0e5827fd" href="#" class="button__shop__now is--vs w-button">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--mobile">
+      <div class="wavemobile is--reverse"></div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--products is--desktop">
+      <div class="wave is--reverse">
+        <div class="w-embed">
+          <div class="wave"></div>
+          <div class="wave__2"></div>
+          <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%!important;
+  height: 60px;
+  animation: wave 900s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite!
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="product__wheel__slider is--desktop">
+      <div class="product__text">
+        <div class="product__wrapper-2">
+          <div class="product__container-2 w-container">
+            <h1 class="product__heading">Meet the Squad</h1>
+            <div class="text-block-3">We got a flavor for everyone</div>
+            <a href="#" class="button is--product-button--pink w-button">Shop All</a>
+          </div>
+        </div>
+      </div>
+      <div class="wheel__product__slider">
+        <div class="wheel__slider">
+          <div id="wheel-slider" class="wheel__slider__wrapper">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/sf.png" loading="lazy" srcset="images/sf-p-500.png 500w, images/sf.png 600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 36vw, (max-width: 991px) 220px, (max-width: 1919px) 300px, 450px" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">special</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">margherita</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/fd.png" loading="lazy" srcset="images/fd-p-500.png 500w, images/fd.png 600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 36vw, (max-width: 991px) 220px, (max-width: 1919px) 300px, 450px" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">four</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">cheezy</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/esdf.png" loading="lazy" srcset="images/esdf-p-500.png 500w, images/esdf.png 600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 36vw, (max-width: 991px) 220px, (max-width: 1919px) 300px, 450px" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">white</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">truffle</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/sfgd.png" loading="lazy" srcset="images/sfgd-p-500.png 500w, images/sfgd.png 600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 36vw, (max-width: 991px) 220px, (max-width: 1919px) 300px, 450px" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">everything</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">crazy</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/fds.png" loading="lazy" srcset="images/fds-p-500.png 500w, images/fds.png 600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 36vw, (max-width: 991px) 220px, (max-width: 1919px) 300px, 450px" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">thin</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">Cheezy</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/esdrg.png" loading="lazy" srcset="images/esdrg-p-500.png 500w, images/esdrg.png 600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 36vw, (max-width: 991px) 220px, (max-width: 1919px) 300px, 450px" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">vegetable</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">supreme</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-navigation">
+              <a href="#" class="swiper-nav-btn prev w-inline-block"></a>
+              <a href="#" class="swiper-nav-btn next w-inline-block"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="_wf-button__wrapper"></div>
+      <div class="controls"></div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="product__wheel__slider is--mobile">
+      <div class="product__text">
+        <div class="product__wrapper-2">
+          <div class="product__container-2 w-container">
+            <h1 class="product__heading">Meet the Squad</h1>
+            <div class="text-block-3">We got a flavor for everyone</div>
+            <a href="#" class="button is--product-button--pink w-button">Shop All</a>
+          </div>
+        </div>
+      </div>
+      <div class="wheel__product__slider">
+        <div class="wheel__slider">
+          <div id="wheel-slider" class="wheel__slider__wrapper">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/sf.png" loading="lazy" srcset="images/sf-p-500.png 500w, images/sf.png 600w" sizes="(max-width: 479px) 115px, 100vw" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">special</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">margherita</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/fd.png" loading="lazy" srcset="images/fd-p-500.png 500w, images/fd.png 600w" sizes="(max-width: 479px) 115px, 100vw" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">four</div>
+                      </div>
+                      <div class="slide-text-wrap is--one">
+                        <h2 class="slide-heading">cheezy</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/esdf.png" loading="lazy" srcset="images/esdf-p-500.png 500w, images/esdf.png 600w" sizes="(max-width: 479px) 115px, 100vw" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">white</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">truffle</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/sfgd.png" loading="lazy" srcset="images/sfgd-p-500.png 500w, images/sfgd.png 600w" sizes="(max-width: 479px) 115px, 100vw" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">everything</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">crazy</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/fds.png" loading="lazy" srcset="images/fds-p-500.png 500w, images/fds.png 600w" sizes="(max-width: 479px) 115px, 100vw" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">thin</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">cheezy</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="slide-content w-inline-block"><img src="images/esdrg.png" loading="lazy" srcset="images/esdrg-p-500.png 500w, images/esdrg.png 600w" sizes="(max-width: 479px) 115px, 100vw" alt="" class="slide-image">
+                    <div class="slide-inner">
+                      <div class="slide-text-wrap">
+                        <div class="slide-category">vegetable</div>
+                      </div>
+                      <div class="slide-text-wrap">
+                        <h2 class="slide-heading">supreme</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-navigation">
+              <a href="#" class="swiper-nav-btn prev w-inline-block"></a>
+              <a href="#" class="swiper-nav-btn next w-inline-block"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="_wf-button__wrapper"></div>
+      <div class="controls"></div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--two is--desktop">
+      <div class="wave">
+        <div class="w-embed">
+          <div class="wave"></div>
+          <div class="wave__2"></div>
+          <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%!important;
+  height: 60px;
+  animation: wave 200s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite!Important;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--two is--mobile">
+      <div class="wavemobile">
+        <div class="w-embed">
+          <div class="wave"></div>
+          <div class="wavemobile"></div>
+          <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  animation: wave 700s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite!Important;
+  transform: translate3d(0, 0, 0);
+}
+.wavemobile {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: -2px!important;
+  width: 100%;
+  height: 60px;
+  animation: wave 100s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite!Important;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div data-w-id="a898e0ca-4ee1-ee62-01e5-13b9b4503f7f" class="better">
+      <div class="better__wrapper">
+        <div class="better__heading__wrapper">
+          <h1 class="heading__one is--better--h1">What makes goodroot better?</h1>
+        </div>
+        <div class="betters__container">
+          <div class="content__left is--one">
+            <div class="html-embed-2 is--mobile w-embed">
+              <style>
+@media only screen and (max-width: 480px) {
+svg:not(:root) {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+  }
+}
+</style>
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1057 902" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                  <pattern id="bias" height="100%" width="100%" patterncontentunits="objectBoundingBox" viewbox="0 0 1 1" preserveaspectratio="xMidYMid slice">
+                    <image height="1" width="1" preserveaspectratio="xMidYMid slice" href="https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/6279399690a300bb1ae9ec56_Untitled%20design%20(31).png">
+                  </image></pattern>
+                </defs>
+                <path fill="url(#bias)"></path>
+                  <animate repeatcount="indefinite" attributename="d" dur="7s" values="M86.2,602.27C37.81,560.28,39,473.1,57.41,415.51c19.2-60,52.39-71.18,120.37-146.76,122.38-135.17,92.38-183.56,172-230.35C438.53-14,554.1.41,628.09,32c72.38,31.19,62.78,61.19,173.16,132.77C916.42,240,950,222,988,276.35c62.38,89.18,25.59,213.15,17.59,240.74-13.19,44.79-28.39,95.58-74,128-65.19,46-118,2.8-194.36,44-64.78,34.8-50.39,78.79-112.77,132.78C533.71,900.61,369.34,924.6,305,860.62c-60.79-60.39,1.2-166.77-66.39-219.55C188.18,602.27,135,645.06,86.2,602.27Z;	
+	M147.84,560.24c-25.91-75.2-65-73.08-87.95-136-34-93,3-232,88-285.09,82.85-52.26,139.36,23.37,287.64-14.45C548.07,95.85,547.22,44.44,666.19,16.83c51-11.9,175.89-40.79,255.77,28,80.72,69.68,70.95,201.81,68,245.15-7.22,96.87-43.76,108.34-39.94,197.14,4.25,95.6,47.59,109.62,38.66,181-9.34,74.77-69.25,159.32-142.33,173.34-93.47,17.42-124.91-95.17-233.25-96-131.71-.85-173.35,165.7-290.19,151.68-73.5-8.5-136.81-84.12-158.48-147.85C138.92,676.23,176.73,643.94,147.84,560.24Z;
+    M86.2,602.27C37.81,560.28,39,473.1,57.41,415.51c19.2-60,52.39-71.18,120.37-146.76,122.38-135.17,92.38-183.56,172-230.35C438.53-14,554.1.41,628.09,32c72.38,31.19,62.78,61.19,173.16,132.77C916.42,240,950,222,988,276.35c62.38,89.18,25.59,213.15,17.59,240.74-13.19,44.79-28.39,95.58-74,128-65.19,46-118,2.8-194.36,44-64.78,34.8-50.39,78.79-112.77,132.78C533.71,900.61,369.34,924.6,305,860.62c-60.79-60.39,1.2-166.77-66.39-219.55C188.18,602.27,135,645.06,86.2,602.27Z">
+              </animate></svg>
+            </div>
+          </div>
+          <div class="content__right is--two">
+            <div class="better__content__left is--one">
+              <div class="content__wrapper is--one">
+                <h3 class="heading__three is--one">guilt free</h3>
+                <h1 class="heading__one is--better is--one">snacking</h1>
+                <p class="paragraph is--better">Every bite is full of the good stuff! Protein, fiber and less carbs.</p>
+              </div>
+            </div>
+            <div class="better__content__left is--two">
+              <div class="content__wrapper is--two">
+                <h3 class="heading__three is--two">high quality</h3>
+                <h1 class="heading__one is--better is--two">ingredients</h1>
+                <p class="paragraph is--better">All ingredients are handpicked from local farms.</p>
+              </div>
+            </div>
+            <div class="better__content__left is--three">
+              <div class="content__wrapper is--three">
+                <h3 class="heading__three is--three">phenomonal</h3>
+                <h1 class="heading__one is--better is--three">taste</h1>
+                <p class="paragraph is--better">Eating pizza has never tasted better. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <section class="reviews">
+      <div class="review__wrapper">
+        <div class="review__container">
+          <div class="padding__vertical is--padding--xxhuge">
+            <div class="review__content">
+              <div class="review__title">
+                <div class="review__intro">
+                  <h3 class="heading__large">the reviews are in</h3>
+                  <div class="max__width__medium"></div>
+                </div>
+              </div>
+              <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b1081192-0e5827fd" class="review__list">
+                <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b1081193-0e5827fd" class="review__list__item">
+                  <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b1081194-0e5827fd" class="review__card">
+                    <h3 class="heading__slide">&quot;its pizza every night at our house thanks to goodroot&quot;</h3>
+                  </div>
+                </div>
+                <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b108119c-0e5827fd" class="review__list__item">
+                  <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b108119d-0e5827fd" class="review__card">
+                    <h3 class="heading__slide">&quot;You will not believe this pizza is gluten-free, it is unbelievably tasty&quot;</h3>
+                  </div>
+                </div>
+                <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b10811a5-0e5827fd" class="review__list__item">
+                  <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b10811a6-0e5827fd" class="review__card">
+                    <h3 class="heading__slide">&quot;goodroot provides pizza for all diet restrictions, it can&#x27;t be beat.&quot;</h3>
+                  </div>
+                </div>
+                <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b10811ae-0e5827fd" class="review__list__item">
+                  <div id="w-node-eda73a6f-be0c-6b4a-e193-97e2b10811af-0e5827fd" class="review__card">
+                    <h3 class="heading__slide">&quot;tasty and rich in protein. I cant get enough of goodroot.&quot;</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sticky-about-banner">
+        <div class="background-wrapper sticky">
+          <div class="background-image"><img src="images/551ff1130770365.619124c517dfe.jpg" loading="lazy" srcset="images/551ff1130770365.619124c517dfe-p-500.jpeg 500w, images/551ff1130770365.619124c517dfe-p-800.jpeg 800w, images/551ff1130770365.619124c517dfe-p-1080.jpeg 1080w, images/551ff1130770365.619124c517dfe-p-1600.jpeg 1600w, images/551ff1130770365.619124c517dfe-p-2000.jpeg 2000w, images/551ff1130770365.619124c517dfe-p-2600.jpeg 2600w, images/551ff1130770365.619124c517dfe.jpg 2800w" sizes="100vw" alt="" class="image-full">
+            <div class="overlay-2 dark-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="section wf-section">
+    <div class="instagram">
+      <div class="instagram__container">
+        <div class="w-layout-grid instagram__content__spacer">
+          <div class="instagram__handle__content">
+            <div class="_w-slider-arrow-left">
+              <a href="#" class="slider-back-button w-inline-block"><img src="https://uploads-ssl.webflow.com/61dcd55c55d0fbe908019e41/61dcd8552a259dc7bd465769_Arrow%20White.svg" loading="lazy" alt="" class="_w-slider-arrow-left is--reverse"></a>
+              <a href="#" class="slider-next-button w-inline-block"><img src="https://uploads-ssl.webflow.com/61dcd55c55d0fbe908019e41/61dcd8552a259dc7bd465769_Arrow%20White.svg" loading="lazy" alt="" class="arrow"></a>
+            </div>
+            <p class="paragraph is--insta">tag us on social</p>
+            <h3 class="heading__one is--instagram">@EatGoodRoot</h3>
+          </div>
+        </div>
+      </div>
+      <div class="instagram__slider">
+        <div data-delay="4000" data-animation="slide" class="instagram__image__wrapper w-slider" data-autoplay="false" data-easing="ease-out-quint" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1000" data-infinite="true" id="flowbaseSlider">
+          <div class="slider__mask w-slider-mask">
+            <div class="slide__content w-slide">
+              <div class="slider__image__wrapper"><img src="images/Untitled-design-31.png" loading="lazy" srcset="images/Untitled-design-31-p-500.png 500w, images/Untitled-design-31-p-800.png 800w, images/Untitled-design-31-p-1080.png 1080w, images/Untitled-design-31.png 1200w" sizes="(max-width: 767px) 10px, 1vw" alt="" class="image"></div>
+            </div>
+            <div class="slide__content w-slide">
+              <div class="slider__image__wrapper"><img src="images/4_2.png" loading="lazy" srcset="images/4_2-p-500.png 500w, images/4_2-p-800.png 800w, images/4_2-p-1080.png 1080w, images/4_2.png 1200w" sizes="(max-width: 767px) 10px, 1vw" alt="" class="image"></div>
+            </div>
+            <div class="slide__content w-slide">
+              <div class="slider__image__wrapper"><img src="images/2.png" loading="lazy" srcset="images/2-p-500.png 500w, images/2-p-800.png 800w, images/2-p-1080.png 1080w, images/2.png 1200w" sizes="(max-width: 767px) 10px, 1vw" alt="" class="image"></div>
+            </div>
+            <div class="slide__content w-slide">
+              <div class="slider__image__wrapper"><img src="images/6_1.png" loading="lazy" srcset="images/6_1-p-500.png 500w, images/6_1-p-800.png 800w, images/6_1-p-1080.png 1080w, images/6_1.png 1200w" sizes="(max-width: 767px) 10px, 1vw" alt="" class="image"></div>
+            </div>
+            <div class="slide__content w-slide">
+              <div class="slider__image__wrapper"><img src="images/3.png" loading="lazy" srcset="images/3-p-500.png 500w, images/3-p-800.png 800w, images/3-p-1080.png 1080w, images/3.png 1200w" sizes="(max-width: 767px) 10px, 1vw" alt="" class="image"></div>
+            </div>
+            <div class="slide__content w-slide">
+              <div class="slider__image__wrapper"><img src="images/1_1.png" loading="lazy" srcset="images/1_1-p-500.png 500w, images/1_1-p-800.png 800w, images/1_1-p-1080.png 1080w, images/1_1.png 1200w" sizes="(max-width: 767px) 10px, 1vw" alt="" class="image"></div>
+            </div>
+          </div>
+          <div class="hidden-arrow is--one w-slider-arrow-left"><img src="https://uploads-ssl.webflow.com/61dcd55c55d0fbe908019e41/61dcd8552a259dc7bd465769_Arrow%20White.svg" loading="lazy" alt="" class="arrow is--reverse"></div>
+          <div class="hidden-arrow is--two w-slider-arrow-right"><img src="https://uploads-ssl.webflow.com/61dcd55c55d0fbe908019e41/61dcd8552a259dc7bd465769_Arrow%20White.svg" loading="lazy" alt="" class="arrow"></div>
+          <div class="hidden-nav w-slider-nav w-round"></div>
+        </div>
+      </div>
+      <div class="slider-custom-arrow w-embed w-script">
+        <script>
+var Webflow = Webflow || [];
+Webflow.push(function() {
+  var l = $('#flowbaseSlider .w-slider-arrow-left');
+  var r = $('#flowbaseSlider .w-slider-arrow-right');
+  $('#flowbaseSlider')
+    .on('click', '.slider-back-button', function() {
+      l.trigger('tap');
+    })
+    .on('click', '.slider-next-button', function() {
+      r.trigger('tap');
+    });
+});
+</script>
+      </div>
+    </div>
+  </div>
+  <div class="section wf-section">
+    <div class="wave__divider is--two is--desktop">
+      <div class="wave">
+        <div class="w-embed">
+          <div class="wave"></div>
+          <div class="wave__2"></div>
+          <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%!important;
+  height: 60px;
+  animation: wave 900s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+        </div>
+      </div>
+      <div class="wavemobile">
+        <div class="w-embed">
+          <div class="wave"></div>
+          <div class="wavemobile"></div>
+          <style>
+.hero__heading__one {
+    -webkit-text-stroke: 1px #f84c06;
+    -webkit-text-fill-color: transparent;
+}
+.wave {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  animation: wave 700s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite!Important;
+  transform: translate3d(0, 0, 0);
+}
+.wavemobile {
+  background: url(https://uploads-ssl.webflow.com/627551512ccafd85fef16dbe/627800b4757549c0d64a3399_greem.png) repeat-x; 
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  animation: wave 100s cubic-bezier( 0.36, 0.36, 0.36, 0.36) infinite!Important;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2000% 0; 
+  }
+}
+</style>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer__container">
+      <div class="w-layout-grid footer__grid">
+        <div id="w-node-_504fd0cc-68f1-09a8-c1e7-dc41d6eeeb52-0e5827fd" class="footer__link__column">
+          <div class="footer__title__wrapper">
+            <div class="accent-wrapper"><img src="images/Uasfdentitled-29.png" loading="lazy" srcset="images/Uasfdentitled-29-p-500.png 500w, images/Uasfdentitled-29-p-800.png 800w, images/Uasfdentitled-29-p-1080.png 1080w, images/Uasfdentitled-29.png 1322w" sizes="(max-width: 479px) 84vw, 165px" alt="" class="logo-3"></div>
+          </div>
+          <div class="form__block w-form">
+            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form"><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email..." id="email" required="">
+              <div class="footer-submit-wrapper"><input type="submit" value="" data-wait="Please wait..." class="submit-button w-button"><img src="https://uploads-ssl.webflow.com/60e4f10631431ab94a454cc5/60e4f40aa1e57285cc1f6d77_Chevron%20Gold.svg" loading="lazy" alt="" class="chevron"></div>
+            </form>
+            <div class="success-message w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__link__column is--one">
+          <div class="footer-link-title">MENU</div>
+          <a href="#" class="footer-link">Products</a>
+          <a href="#" class="footer-link">subscribe</a>
+        </div>
+        <div class="footer__link__column is--one">
+          <div class="footer-link-title">COMPANY</div>
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Reviews</a>
+          <a href="#" class="footer-link">Manufacturing</a>
+          <a href="#" class="footer-link">ingredients</a>
+        </div>
+        <div class="footer-link-column">
+          <div class="footer-link-title">INFORMATION</div>
+          <a href="#" class="footer-link">Terms and conditions</a>
+          <a href="#" class="footer-link">privacy policy</a>
+          <a href="#" class="footer-link">wholesale</a>
+          <a href="#" class="footer-link">FAQ</a>
+        </div>
+      </div>
+      <div class="footer__bottom__wrapper">
+        <div class="contact__block">
+          <a href="#" class="contact__link">copyright @goodroot</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=637602613a6d6244295827f9" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <!--  SwiperJS Script Embed  -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!--  Initialize SwiperJS  -->
+  <script>
+$(document).ready( function() {
+	var swiper = new Swiper('.swiper-container', {
+		effect: 'coverflow', 		// Kind of slider effect
+		centeredSlides: true, 	// Force centered slide
+		slidesPerView: 'auto', 	// auto = the slide itself defined the viewport of the slider
+		allowTouchMove: false, 	// Allows more control options except Slide Next and Slide Prev
+		speed: 2000, 						// Speed of the change animation
+		loop: true,						 	// Looping the slides
+		mousewheel: false, 			// control the slider with mousewheel
+    navigation: {
+    	nextEl: '.next', 			// Class for the Next Slide Button
+      prevEl: '.prev', 			// Class for the Previous Slide Button
+    },
+		coverflowEffect: { 			// Properties for the coverflow effect
+			rotate: 0,
+			stretch: 0,
+			depth: 150,
+			modifier: 1,
+			slideShadows : false,
+    },
+  });
+});
+</script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="text/javascript"></script>
+  <script src="https://code.nath.co/src/jQuery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+  <script>SmoothScroll({
+      // Scrolling Core
+    animationTime    : 2000, // [ms]
+    stepSize         : 100, // [px]
+    // Acceleration
+    accelerationDelta : 50,  // 50
+    accelerationMax   : 3,   // 3
+    // Keyboard Settings
+    keyboardSupport   : true,  // option
+    arrowScroll       : 50,    // [px]
+    // Pulse (less tweakable)
+    // ratio of "tail" to "acceleration"
+    pulseAlgorithm   : true,
+    pulseScale       : 4,
+    pulseNormalize   : 1,
+    // Other
+    touchpadSupport   : false, // ignore touchpad by default
+    fixedBackground   : true, 
+    excluded          : ''    
+})</script>
+</body>
+</html>
