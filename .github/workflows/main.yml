@@ -16,6 +16,6 @@ jobs:
       - name: Deploy
         uses: Glennmen/ploi-deploy-action@v1.2.0
         with:
-          api_token: ${{ secrets.API_TOKEN }}
+          api_token: ${{ secrets.PLOI_API }}
           server_id: 43584
           site_id: 129825
